@@ -1,0 +1,31 @@
+body
+{
+    margin: 0;
+    box-sizing: border-box;
+    background: black;
+}
+#luser
+{
+    visibility: hidden;
+    font-size: small;
+    font-weight: bolder;
+}
+nav
+{
+    background: black;
+    height: 50px;
+    display: flex;
+    margin: auto;
+}
+.nav-links
+{
+    width: 85%;
+    margin: auto;
+}
+img
+{
+    padding: 10px 0px;
+    float: left;
+    height: 30px;
+    filter: invert();
+}
