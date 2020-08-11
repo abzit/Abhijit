@@ -1,0 +1,47 @@
+body
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav
+{
+    width: 80%;
+    margin: auto;
+    background: none;
+    background: yellow;
+}
+
+#right
+{
+    display:flex;
+    float: right;
+}
+#left
+{
+    display: flex;
+    float: left;
+    background:rgb(255, 200, 60);
+    width: fit-content;
+    padding: 18px 10px;
+    margin: 0;
+}
+#right > li
+{
+    padding: 0 20px;
+    list-style: none;
+}
+#banner
+{
+    width: 100%;
+}
+.navlinks
+{
+    text-decoration: none;
+}
+#left,.navlinks
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+}
