@@ -1,3 +1,112 @@
+<<<<<<< HEAD
+body
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav
+{
+    display: flex;
+    background: #1B75BC;
+}
+nav
+{
+    width: 80%;
+    margin: auto;
+}
+
+
+#right
+{
+    display:flex;
+    float: right;
+}
+
+#left
+{
+    display: flex;
+    float: left;
+    width: fit-content;
+    padding: 18px 10px;
+    background: #FFE77A;
+    margin: 0;
+}
+
+#left li a,#left li
+{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+#right  li
+{
+    padding: 0 30px;
+    list-style: none;
+}
+#banner
+{
+    width: 100%;
+}
+.navlinks
+{
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+table,.tableData,.tableheading,.download
+{
+    border-collapse: collapse;
+    border:2px solid black;
+    width: 100%;
+    margin: auto;
+}
+.tableheading
+{
+    background: #1B75BC;
+    color: white;
+    height: 50px;
+    font-size: larger;
+}
+
+.tableData
+{
+    font-weight: bolder;
+    height: 40px;
+}
+.btn 
+{
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px 40px;
+    color: black;
+}
+.download
+{
+    width: 96%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background: lawngreen;
+    border-collapse: collapse;
+}
+.btn:hover
+{
+    background: mediumspringgreen;
+}
+#page
+{
+    width: 80%;
+    margin: auto;
+}
+#downloads
+{
+    background:#FFE77A ;
+    padding: 21px 0px;
+}
+=======
 body
 {
     margin: 0;
@@ -81,3 +190,4 @@ tr:nth-child(even)
 {
     background: mediumspringgreen;
 }
+>>>>>>> c613b9990c5fa85bb5c0d9caefbcabc2e2294b10
