@@ -11,7 +11,7 @@ body
 }
 nav
 {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -58,7 +58,8 @@ nav
 table,.tableData,.tableheading,.download
 {
     border-collapse: collapse;
-    border:2px solid black;
+    border:2px solid white;
+    border-radius: 8px;
     width: 100%;
     margin: auto;
 }
@@ -88,7 +89,8 @@ table,.tableData,.tableheading,.download
     margin: auto;
     display: flex;
     justify-content: center;
-    background: lawngreen;
+    background: lightgreen;
+    border-radius: 5px;
     border-collapse: collapse;
 }
 .btn:hover
@@ -97,7 +99,7 @@ table,.tableData,.tableheading,.download
 }
 #page
 {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 #downloads
@@ -105,4 +107,3 @@ table,.tableData,.tableheading,.download
     background:#FFE77A ;
     padding: 21px 0px;
 }
-
