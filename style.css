@@ -123,3 +123,18 @@ main
     background:#FFE77A ;
     padding: 21px 0px;
 }
+@media screen and (max-width:800px)
+{
+    #page
+    {
+        border-radius:0;
+        margin-top: 0;
+        padding: 20px 0;
+        background: #A7A9AC;
+    }
+    main,.navlinks,#highlight
+    {
+        width:100%;
+    }
+   
+}
