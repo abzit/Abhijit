@@ -27,20 +27,18 @@ nav
     display: flex;
     float: left;
     width: fit-content;
-    padding: 18px 10px;
-    background: #FFE77A;
+    padding: 18px 0;
     margin: 0;
 }
+
 
 #left li a,#left li
 {
     text-decoration: none;
     list-style: none;
-    color: black;
 }
 #right  li
 {
-    padding: 0 30px;
     list-style: none;
 }
 #banner
@@ -53,15 +51,26 @@ nav
     font-weight: bolder;
     text-decoration: none;
     color: white;
+    padding: 22px 40px;
+}
+#highlight
+{
+    background: #FFE77A;
+    color: black;
+    
+
 }
 
 table,.tableData,.tableheading,.download
 {
     border-collapse: collapse;
     border:2px solid white;
-    border-radius: 8px;
     width: 100%;
     margin: auto;
+}
+table
+{
+    border-radius: 10px;
 }
 .tableheading
 {
@@ -75,6 +84,7 @@ table,.tableData,.tableheading,.download
 {
     font-weight: bolder;
     height: 40px;
+    background: white;
 }
 .btn 
 {
@@ -90,7 +100,6 @@ table,.tableData,.tableheading,.download
     display: flex;
     justify-content: center;
     background: lightgreen;
-    border-radius: 5px;
     border-collapse: collapse;
 }
 .btn:hover
@@ -98,6 +107,13 @@ table,.tableData,.tableheading,.download
     background: mediumspringgreen;
 }
 #page
+{
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    background: #A7A9AC;
+}
+main
 {
     width: 60%;
     margin: auto;
