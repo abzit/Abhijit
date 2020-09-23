@@ -74,20 +74,21 @@ main
 }
 .content
 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 24px;
+    
     background: #1B75BC;
     color: white;
-    padding: 1px 20px 60px 20px;
     border-radius: 25px;
 }
-.fas,.fab
+.matter
+{
+    width: 97%;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+.fa,.fa-download
 {
     padding: 0px 10px;
-}
-.fab
-{
-    padding-top: 3px;
 }
 .download-btn
 {
@@ -117,17 +118,15 @@ main
 .thumbnail
 {
     margin-top: 20px;
-    width: 100%;
+    width: 97%;
     border-radius: 15px 15px 0 0 ;
 }
 .thumbnail-video
 {
-    margin-top: 20px;
     width: 100%;
+    margin: auto;
     border-radius: 15px ;
 }
-
-
 
 
 @keyframes animate
@@ -139,6 +138,31 @@ main
     100%
     {
         filter: hue-rotate(359deg);
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    nav 
+    {
+        width: 100%;
+        margin: auto;
+    }
+    main 
+    {
+        width: 100%;
+        margin: auto;
+    }
+    .content,.thumbnail,.thumbnail-video
+    {
+        border-radius: 0px;
+    }
+    .thumbnain,.thumbnail-video
+    {
+        width: 100%;
+    }
+    .matter{
+        font-size: 18px;
     }
 }
 
