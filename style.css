@@ -1,0 +1,144 @@
+body
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: white;
+}
+nav img
+{
+    height: 65px;
+    margin-top: 4px;
+}
+#nav
+{
+    display: flex;
+    background: #1B75BC;
+}
+#nav-items,.nav-links
+{
+    display: flex;
+    float: right;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+nav
+{
+    width: 95%;
+    margin: auto;
+}
+#logo
+{
+    display: flex;
+    float: left;
+    padding: 2px 25px 2px 20px;
+}
+#a-logo
+{
+    text-decoration: none;
+}
+#logo-text,.nav-links
+{
+    font-size: 2.5vh;
+    color: white;
+    font-weight: bolder;
+}
+.nav-links
+{
+    font-weight: lighter;
+    padding: 26px 40px 26px 40px;
+}
+#highlight
+{
+    background: #FFE77A;
+    color: #1a1110;
+}
+#page
+{
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 5px  0;
+    background: white;
+}
+main
+{
+    width: 70%;
+    margin: auto;
+}
+.title
+{
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.content
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    background: #1B75BC;
+    color: white;
+    padding: 1px 20px 60px 20px;
+    border-radius: 25px;
+}
+.fas,.fab
+{
+    padding: 0px 10px;
+}
+.fab
+{
+    padding-top: 3px;
+}
+.download-btn
+{
+    background: greenyellow;
+    padding: 25px 50px;
+    border-radius: 15px;
+    border-style: none;
+    /*border: 2px solid black;*/
+    color: black;
+    font-weight: bolder;
+    font-size: 2vh;
+    font-family: sans-serif;
+    animation: animate linear infinite 1s;
+    text-decoration: none;
+}
+.download-btn:hover
+{
+    cursor: pointer;
+    background: black;
+    color: greenyellow;
+}
+.download-btn:active
+{
+    background: white;
+}
+
+.thumbnail
+{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 15px 15px 0 0 ;
+}
+.thumbnail-video
+{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 15px ;
+}
+
+
+
+
+@keyframes animate
+{
+    0%
+    {
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+        filter: hue-rotate(359deg);
+    }
+}
+
